@@ -585,10 +585,10 @@ exports.private = () =>{
 	return`Fitur hanya bisa di gunakan di private chat`
 	}
 exports.wait = () => {
-    return `⏳ Mohon tunggu sebentar`
+    return '```Tunggu Sebentar Sayang !```'
 }
 exports.ok = () => {
-    return `✅ Done.`
+    return '```Done Sayang!```'
 }
 
 exports.err = () => {
@@ -675,7 +675,7 @@ saya ${botname}, bot ini adalah Beta Multi-Device Whatsapp.
 exports.listMenu = (time, salam, pushname, prefix) => {
     return `*Selamat ${salam} ${pushname}*
 *⌚Time Server : ${time}*
-*📚 List-Menu Alphabot-Md :*
+*📚 List-Menu Botwa :*
 
 ╭─❒ 「 Bot Info 」 
 ├ ${prefix}owner
